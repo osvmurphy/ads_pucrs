@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - PetShop Pucrs</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/cadastro.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-lilas-nubank text-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img src="img/logo.png" alt="Logo" class="header-logo me-2">
+                    <h1 class="mb-0">petshop</h1>
+                </div>
+                <div class="col-md-8">
+                    <nav>
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item"><a class="nav-link text-white" href="home.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="cadastro.html">Cadastro</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="agendamento.html">Agendamento</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Formulário de Cadastro</h2>
+        <form>
+            <!-- Dados do Cliente -->
+            <fieldset>
+                <legend>Dados do Cliente</legend>
+                <div class="mb-3">
+                    <label for="nomeCliente" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nomeCliente" required>
+                </div>
+                <div class="mb-3">
+                    <label for="enderecoCliente" class="form-label">Endereço</label>
+                    <input type="text" class="form-control" id="enderecoCliente" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefoneCliente" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="telefoneCliente" required>
+                </div>
+                <div class="mb-3">
+                    <label for="emailCliente" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="emailCliente" required>
+                </div>
+            </fieldset>
+
+            <!-- Dados do Pet -->
+            <fieldset>
+                <legend>Dados do Pet</legend>
+                <div class="mb-3">
+                    <label for="nomePet" class="form-label">Nome do Pet</label>
+                    <input type="text" class="form-control" id="nomePet" required>
+                </div>
+                <div class="mb-3">
+                    <label for="tipoPet" class="form-label">Tipo de Pet</label>
+                    <select class="form-select" id="tipoPet" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="Cão">Cão</option>
+                        <option value="Gato">Gato</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="racaPet" class="form-label">Raça</label>
+                    <input type="text" class="form-control" id="racaPet" required>
+                </div>
+                <div class="mb-3">
+                    <label for="temperamentoPet" class="form-label">Temperamento</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="temperamentoCalmo">
+                        <label class="form-check-label" for="temperamentoCalmo">
+                            Calmo
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="temperamentoAgitado">
+                        <label class="form-check-label" for="temperamentoAgitado">
+                            Agitado
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="temperamentoAmigavel">
+                        <label class="form-check-label" for="temperamentoAmigavel">
+                            Amigável
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- Botão de Envio -->
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <img src="img/logo.png" alt="Logo" class="footer-logo mb-2">
+            <p>&copy; 2024 petshop. Todos os direitos reservados. <br> Osvaldo Pontes - Aluno PUCRS </p>
+            <p>Contato: <a href="mailto:contato@petshop.com" class="text-white">contato@petshop.com</a></p>
+            <p>
+                <a href="home.html" class="text-white">Home</a> |
+                <a href="cadastro.html" class="text-white">Cadastro</a> |
+                <a href="agendamento.html" class="text-white">Agendamento</a> |
+                <a href="contato.html" class="text-white">Contato</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

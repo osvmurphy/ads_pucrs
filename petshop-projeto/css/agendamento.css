@@ -1,0 +1,86 @@
+/* agendamento.css */
+
+/* Estilo para o cabeçalho e rodapé */
+.bg-lilas-nubank {
+    background-color: #8A2BE2; /* Cor lilás Nubank */
+}
+
+.header-logo {
+    height: 40px; /* Ajuste a altura da logo conforme necessário */
+}
+
+.footer-logo {
+    height: 40px; /* Ajuste a altura da logo no rodapé conforme necessário */
+}
+
+footer {
+    background-color: #000; /* Fundo preto para o rodapé */
+    color: #fff; /* Texto branco para o rodapé */
+}
+
+/* Estilo para o formulário de agendamento */
+main {
+    background-color: #f8f9fa; /* Fundo claro para o corpo da página */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 40px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para destacar o formulário */
+}
+
+form {
+    background: #ffffff; /* Fundo branco para o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno do formulário */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra leve */
+}
+
+form fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+form legend {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    color: #8A2BE2; /* Cor lilás Nubank */
+    font-weight: 600; /* Peso da fonte para destaque */
+}
+
+form .form-label {
+    font-weight: 500;
+    color: #333; /* Cor escura para o texto do rótulo */
+}
+
+form .form-check-label {
+    margin-left: 10px;
+}
+
+form .form-check-input {
+    margin-right: 5px;
+}
+
+form .form-control {
+    border-radius: 4px; /* Bordas arredondadas dos inputs */
+    border: 1px solid #ced4da; /* Cor da borda dos inputs */
+    padding: 10px; /* Espaçamento interno dos inputs */
+}
+
+form .form-select {
+    border-radius: 4px; /* Bordas arredondadas do select */
+    border: 1px solid #ced4da; /* Cor da borda do select */
+    padding: 10px; /* Espaçamento interno do select */
+}
+
+/* Estilo para o botão de envio */
+.btn-primary {
+    background-color: #8A2BE2; /* Cor lilás Nubank */
+    border-color: #8A2BE2;
+}
+
+.btn-primary:hover {
+    background-color: #6f2bba;
+    border-color: #6f2bba;
+}
+
+.text-white {
+    color: #fff !important;
+}

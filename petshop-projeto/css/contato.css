@@ -1,0 +1,68 @@
+/* contato.css */
+
+/* Estilo para o cabeçalho e rodapé */
+.bg-lilas-nubank {
+    background-color: #8A2BE2; /* Cor lilás Nubank */
+}
+
+.header-logo {
+    height: 40px; /* Ajuste a altura da logo conforme necessário */
+}
+
+.footer-logo {
+    height: 40px; /* Ajuste a altura da logo no rodapé conforme necessário */
+}
+
+footer {
+    background-color: #000; /* Fundo preto para o rodapé */
+    color: #fff; /* Texto branco para o rodapé */
+}
+
+/* Estilo para o formulário de contato */
+main {
+    background-color: #f8f9fa; /* Fundo claro para o corpo da página */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 40px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para destacar a seção */
+}
+
+form {
+    background: #ffffff; /* Fundo branco para o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno do formulário */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra leve */
+}
+
+form .form-label {
+    font-weight: 500;
+    color: #333; /* Cor escura para o texto do rótulo */
+}
+
+form .form-control {
+    border-radius: 4px; /* Bordas arredondadas dos inputs */
+    border: 1px solid #ced4da; /* Cor da borda dos inputs */
+    padding: 10px; /* Espaçamento interno dos inputs */
+}
+
+form .form-textarea {
+    height: 150px; /* Altura da área de texto */
+}
+
+.btn-primary {
+    background-color: #8A2BE2; /* Cor lilás Nubank */
+    border-color: #8A2BE2;
+}
+
+.btn-primary:hover {
+    background-color: #6f2bba;
+    border-color: #6f2bba;
+}
+
+.map-container {
+    margin-top: 20px;
+}
+
+/* Estilo para os links no rodapé */
+.text-white {
+    color: #fff !important;
+}
